@@ -3,19 +3,15 @@ package jun23_selenium;
 public class A {
 
 }
-
 class B{
 	
 }
-
 class C{
 	
 }
-
 class D{
 	
 }
-
 
 // in a java file, we can create n number of classes
 // 1 - only 1 public class is allowed
@@ -23,4 +19,10 @@ class D{
 
 // when java compile the code, javac A.java
 // it will 4 classfile
+// 9th June - 9th Aug 
+// 30 min on coding?
+
+// Friday - 
+
+
 
