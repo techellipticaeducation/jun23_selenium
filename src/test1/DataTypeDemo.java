@@ -3,12 +3,18 @@ package test1;
 public class DataTypeDemo {
 public static void main(String[] args) {
 	
-//	byte b1 = (byte)300;
-//	System.out.println(b1);
+	byte b1 = (byte)300;
+	System.out.println(b1);
 	
 //	-128 to 127
 	
-//	int i = 0X56;  
+//	int i = 0X56;
+	int k = 010; 
+	int j = 0X10;
+	
+	System.out.println(k);
+	System.out.println(j);
+	
 	// when we add 0 before any number in java. it become octal
 	// when we add 0X before any number in java. it become hexadecimal
 //	System.out.println(i);
