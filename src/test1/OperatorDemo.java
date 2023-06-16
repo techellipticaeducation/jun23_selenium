@@ -18,6 +18,16 @@ public class OperatorDemo {
 		// 12+4/2    = 14  and 8
 		// (*/%) (+-)
 		// BODMAS
-		System.out.println((12+4)/2);
+//		System.out.println(18*3/3/4);
+//		System.out.println(15%4*7); // 32 , 2 
+		// 3 * 7 = 21
+		// * / %  multiplicative - left to right 
+		// + -  additive 
+		
+		System.out.println(35 % 12 % 7 / 2);
+		// 11 % 7 / 2
+		// 4 / 2 = 2
+		
+		
 	}
 }
