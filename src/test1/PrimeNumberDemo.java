@@ -14,35 +14,40 @@ public class PrimeNumberDemo {
 		// 17
 		// 2 to 16
 		// 16 % 2 = 0 
-// 16 , 9,10,11,12,13,14,15
-// 16 = , 2 to 15
-// 16 =   2 to 8
-		
-//		long  -  8 bytes
-//      short - 2 byte
-//      unicode char - 
-//		ascii - 1 byte
-//		unicode - 2 byte
-		
+		// 16 , 9,10,11,12,13,14,15
+		// 16 = , 2 to 15
+		// 16 =   2 to 8
+
+		//		long  -  8 bytes
+		//      short - 2 byte
+		//      unicode char - 
+		//		ascii - 1 byte
+		//		unicode - 2 byte
+
 		// please provide all prime number from 1 to 100
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter your range from 1 to ");
 		int input = scan.nextInt();
+		PrimeNumberDemo demo1 = new PrimeNumberDemo();
 		for(int j = 1; j  <= input ;j++ ) {
-			boolean isPrime = true;
-			for(int i = 2 ; i <= (j/2); i++) {
-				if(j % i == 0) {
-					isPrime = false;
-				}
-			}
-
+			boolean isPrime = demo1.isPrime(j);
 			if(isPrime) {
 				System.out.println(j);
 			}else {
-//				System.out.println("number is not prime");
+				//				System.out.println("number is not prime");
 			}
 		}
-
 	}
+
+	boolean isPrime(int j) {
+		boolean isPrime = true;
+		for(int i = 2 ; i <= (j/2); i++) {
+			if(j % i == 0) {
+				isPrime = false;
+			}
+		}
+		return isPrime;
+	}
+
 }
