@@ -9,22 +9,9 @@ public class HumanChat {
 		Human.showCountry();
 		
 		
-		Human h1 = new Human();
-		h1.name = "Nishat";
-		h1.age = 26;
-		h1.height = 150;		
-		h1.country  = "India";
-		
-		Human h2 = new Human();
-		h2.name = "Raju";
-		h2.age = 30;
-		h2.height = 170;
-		h2.country = "USA";
-		
-		Human h3 = new Human();
-		h3.name = "Raj";
-		h3.age = 28;
-		h3.height = 140;
+		Human h1 = new Human("Nishat", 26, 150);
+		Human h2 = new Human("Raju",30,170);
+		Human h3 = new Human("Raj",28,140);
 		
 		
 		h1.speak("Hello");

@@ -10,6 +10,13 @@ public class Human {
 	int height;
 	static String country; // static variable , 
 	
+	// this - instance level variables or method
+	
+	Human(String name,int age, int height){
+		this.name = name;
+		this.age = age;
+		this.height = height;
+	}
 	
 	// 40% java
 	
