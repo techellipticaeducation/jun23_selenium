@@ -8,14 +8,23 @@ public class ChainingDemo {
 //		mobj.m3();
 //		mobj.m4();
 //		mobj.m5();
-		
+//		
 		mobj.m1().m2().m3().m4().m5();
 		
+	//	10 + 20 + nishat + 40
+	// 30 + nishat + 40
+		
+		int value = mobj.add(10, 20);
+		int value1 = mobj.add(value, value);
 	}
 }
 
 class M{
 
+	public int add(int i, int j) {
+		return i+j;
+	}
+	
 	public M m1() {
 		System.out.println("m1 functionality");
 		return this;
