@@ -1,3 +1,5 @@
 /.project
 /bin/
 /.classpath
+/drivers/
+/selenium-java-4.11.0/
